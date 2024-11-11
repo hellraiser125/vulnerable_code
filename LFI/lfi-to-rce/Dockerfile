@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:8.4.0RC2-apache
+FROM php:8.4.0RC1-fpm-bookworm
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor apache2
